@@ -29,7 +29,7 @@ int main(void){
     }
 
     printf("要查找的值：");
-    scanf("%d,&ky");
+    scanf("%d",&ky);
 
     idx=search(vx,ky,NUMBER);
 
