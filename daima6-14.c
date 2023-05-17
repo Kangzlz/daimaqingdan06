@@ -33,7 +33,7 @@ int main(void){
     printf("要查找的值：");
     scanf("%d",&ky);
 
-    if((idx==search(vx,ky,NUMBER))==FAILED)
+    if((idx=search(vx,ky,NUMBER))==FAILED)
     puts("\a查找失败。");
     else
     printf("%d是数组的第%d号元素。\n",ky,idx+1);
